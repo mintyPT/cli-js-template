@@ -1,0 +1,15 @@
+{
+  "project_name": "My CLI",
+  "project_slug": "{{ cookiecutter.project_name | lower | replace(' ', '-') | replace('_', '-') }}",
+  "package_name": "{{ cookiecutter.project_slug }}",
+  "cli_name": "{{ cookiecutter.project_slug }}",
+  "source_dir": "src",
+  "description": "A TypeScript CLI and library package.",
+  "author_name": "Your Name",
+  "github_owner": "mintyPT",
+  "github_repo": "{{ cookiecutter.project_slug }}",
+  "license": "MIT",
+  "node_version": "20",
+  "npm_access": ["public", "restricted"],
+  "publish_to_npm": ["yes", "no"]
+}
