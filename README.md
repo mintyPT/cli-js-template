@@ -7,7 +7,6 @@ Cookiecutter template for creating TypeScript CLI packages with a small library 
 ```bash
 cookiecutter gh:mintyPT/cli-js-template
 cd my-cli
-npm install
 npm test
 npm run build
 ```
@@ -19,7 +18,17 @@ Generated projects include:
 - tsup build output with declarations
 - Vitest tests
 - npm package dry-run verification
+- npm dependency installation and lockfile generation during project creation
 - GitHub Actions for CI and npm publish
+
+## Template Verification
+
+The template repository includes a smoke test that renders a sample project and
+runs its generated checks:
+
+```bash
+node scripts/smoke-test.mjs
+```
 
 ## Template Variables
 
