@@ -19,7 +19,7 @@ Generated projects include:
 - tsup build output with declarations
 - Vitest tests
 - npm package dry-run verification
-- GitHub Actions for CI and optional npm publish
+- GitHub Actions for CI and npm publish
 
 ## Template Variables
 
@@ -35,4 +35,3 @@ Generated projects include:
 - `license`: package license.
 - `node_version`: minimum Node.js major version.
 - `npm_access`: npm publish access mode.
-- `publish_to_npm`: whether to include the npm publish workflow.

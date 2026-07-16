@@ -10,6 +10,5 @@
   "github_repo": "{{ cookiecutter.project_slug }}",
   "license": "MIT",
   "node_version": "20",
-  "npm_access": ["public", "restricted"],
-  "publish_to_npm": ["yes", "no"]
+  "npm_access": ["public", "restricted"]
 }
