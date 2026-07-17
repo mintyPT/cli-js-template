@@ -31,6 +31,8 @@ try {
   ]);
 
   assertExists(join(projectDir, "package-lock.json"));
+  assertExists(join(projectDir, "RELEASE.md"));
+  assertExists(join(projectDir, ".github", "workflows", "publish.yml"));
 
   run("npm", ["ci"], { cwd: projectDir });
   run("npm", ["run", "check"], { cwd: projectDir });

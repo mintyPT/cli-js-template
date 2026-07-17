@@ -17,7 +17,7 @@
     "node": ">={{ cookiecutter.node_version }}"
   },
   "bin": {
-    "{{ cookiecutter.cli_name }}": "./dist/cli/index.js"
+    "{{ cookiecutter.cli_name }}": "dist/cli/index.js"
   },
   "types": "./dist/index.d.ts",
   "exports": {

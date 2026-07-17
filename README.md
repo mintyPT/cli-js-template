@@ -20,6 +20,7 @@ Generated projects include:
 - npm package dry-run verification
 - npm dependency installation and lockfile generation during project creation
 - GitHub Actions for CI and npm publish
+- Release checklist and first-time npm publishing instructions
 
 ## Template Verification
 
